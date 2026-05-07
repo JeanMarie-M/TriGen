@@ -16,6 +16,18 @@ data class IncidentEntity(
     val calledEmergency: Boolean,
     val elapsedTimeSeconds: Int,
     val responderNotes: String,
+    // Secondary Survey Data
+    val symptoms: String = "",
+    val allergies: String = "",
+    val medications: String = "",
+    val medicalConditions: String = "",
+    val pulseRate: String = "",
+    val breathingRate: String = "",
+    val consciousnessLevel: String = "",
+    val injuriesFound: String = "",
+    val recoveryPositionNeeded: Boolean = false,
+    // Protocol Info
+    val protocolUsed: String = "",
     val isSynced: Boolean = false,
     val createdAt: Long = System.currentTimeMillis()
 )

@@ -39,6 +39,7 @@ import com.example.trigen.screens.scan.ScanScreen
 import com.example.trigen.screens.secondary.SecondarySurveyScreen
 import com.example.trigen.screens.splash.SplashScreen
 import com.example.trigen.screens.support.SupportScreen
+import com.example.trigen.screens.secondary.SecondarySurveyViewModel
 import com.example.trigen.ui.theme.TriGenTheme
 
 @Composable
@@ -149,7 +150,10 @@ fun AppNavHost(
             }
 
             composable(Routes.SUPPORT) {
-                SupportScreen(onBack = { navController.popBackStack() })
+                SupportScreen(
+                    onBack = { navController.popBackStack() },
+                    onNavigateToHome = { navController.navigate(Routes.HOME) }
+                    )
             }
 
             composable(Routes.PRIVACY) {

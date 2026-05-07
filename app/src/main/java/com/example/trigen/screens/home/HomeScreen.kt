@@ -84,7 +84,7 @@ fun HomeScreen(
                     )
                 }
                 Spacer(modifier = Modifier.width(8.dp))
-                RightTagBadge("OfflineBadge")
+                RightTagBadge("Profile")
             }
         }
 
@@ -364,7 +364,7 @@ fun RightTagBadge(title: String) {
         modifier = Modifier
             .clip(RoundedCornerShape(100.dp))
             .background(colorScheme.secondary.copy(alpha = 0.1f))
-            .padding(horizontal = 10.dp, vertical = 5.dp)
+            .padding(horizontal = 10.dp, vertical = 5.dp),
     ) {
         Box(
             modifier = Modifier

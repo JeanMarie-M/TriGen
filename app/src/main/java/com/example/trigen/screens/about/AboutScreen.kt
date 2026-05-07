@@ -95,7 +95,7 @@ fun AboutScreen(
             Spacer(modifier = Modifier.weight(1f))
             
             Text(
-                text = "© 2024 TriGen Team",
+                text = "© 2026 TriGen Team",
                 style = MaterialTheme.typography.labelMedium,
                 modifier = Modifier.padding(top = 32.dp)
             )

@@ -24,6 +24,7 @@ object Routes {
     const val VIEW_INCIDENT = "view_incident/{incidentId}"
 
     fun aftermath(sessionId: String) = "aftermath/$sessionId"
+    fun aftermathWithContext(elapsed: Int, protocol: String) = "aftermath/new?elapsed=$elapsed&protocol=$protocol"
     fun viewIncident(incidentId: String) = "view_incident/$incidentId"
     const val SPLASH = "splash"
     const val LOGIN = "login"

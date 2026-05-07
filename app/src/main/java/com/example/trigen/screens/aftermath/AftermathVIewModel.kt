@@ -9,6 +9,7 @@ import androidx.navigation.NavController
 import com.example.trigen.data.local.entity.IncidentEntity
 import com.example.trigen.data.repository.IncidentRepository
 import com.example.trigen.navigation.Routes
+import com.example.trigen.screens.secondary.SecondarySurveyState
 import com.google.firebase.database.FirebaseDatabase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -82,6 +83,30 @@ class AftermathViewModel @Inject constructor(
 
     fun updateElapsedTime(seconds: Int) {
         _state.update { it.copy(incident = it.incident?.copy(elapsedTimeSeconds = seconds)) }
+    }
+
+    fun populateFromEmergencyData(
+        elapsedSeconds: Int,
+        secondarySurvey: SecondarySurveyState? = null,
+        protocolUsed: String = ""
+    ) {
+        _state.update { state ->
+            state.copy(
+                incident = state.incident?.copy(
+                    elapsedTimeSeconds = elapsedSeconds,
+                    protocolUsed = protocolUsed,
+                    symptoms = secondarySurvey?.samData?.symptoms?.joinToString(", ") ?: "",
+                    allergies = secondarySurvey?.samData?.allergies?.joinToString(", ") ?: "",
+                    medications = secondarySurvey?.samData?.medications?.joinToString(", ") ?: "",
+                    medicalConditions = secondarySurvey?.samData?.medicalConditions?.joinToString(", ") ?: "",
+                    pulseRate = secondarySurvey?.vitalSigns?.pulseRate ?: "",
+                    breathingRate = secondarySurvey?.vitalSigns?.breathingRate ?: "",
+                    consciousnessLevel = secondarySurvey?.vitalSigns?.consciousnessLevel?.name ?: "",
+                    injuriesFound = secondarySurvey?.injuriesFound?.joinToString(", ") ?: "",
+                    recoveryPositionNeeded = secondarySurvey?.recoveryPositionNeeded ?: false
+                )
+            )
+        }
     }
 
     fun saveIncident() {

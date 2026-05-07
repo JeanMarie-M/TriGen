@@ -55,6 +55,16 @@ class IncidentRepository @Inject constructor(
                 "calledEmergency" to incident.calledEmergency,
                 "elapsedTimeSeconds" to incident.elapsedTimeSeconds,
                 "responderNotes" to incident.responderNotes,
+                "symptoms" to incident.symptoms,
+                "allergies" to incident.allergies,
+                "medications" to incident.medications,
+                "medicalConditions" to incident.medicalConditions,
+                "pulseRate" to incident.pulseRate,
+                "breathingRate" to incident.breathingRate,
+                "consciousnessLevel" to incident.consciousnessLevel,
+                "injuriesFound" to incident.injuriesFound,
+                "recoveryPositionNeeded" to incident.recoveryPositionNeeded,
+                "protocolUsed" to incident.protocolUsed,
                 "createdAt" to incident.createdAt
             )
             firestore.collection("incidents")

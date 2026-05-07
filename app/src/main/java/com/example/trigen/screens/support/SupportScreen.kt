@@ -18,7 +18,8 @@ import androidx.compose.ui.unit.dp
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SupportScreen(
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onNavigateToHome: () -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -95,7 +96,7 @@ fun SupportScreen(
             )
 
             Button(
-                onClick = { /* Send message */ },
+                onClick = {onNavigateToHome()},
                 modifier = Modifier.fillMaxWidth(),
                 enabled = message.isNotBlank()
             ) {
