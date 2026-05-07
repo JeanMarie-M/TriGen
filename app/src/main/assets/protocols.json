@@ -1,0 +1,227 @@
+[
+  {
+    "injuryType": "BURN",
+    "displayName": "Burn Injury",
+    "severity": "Moderate",
+    "source": "Red Cross / WHO",
+    "callEmergency": true,
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Cool the burn",
+        "instruction": "Hold the burned area under cool (not cold) running water for 10–20 minutes immediately. Do not use ice, iced water, or any creams or greasy substances.",
+        "warning": null
+      },
+      {
+        "stepNumber": 2,
+        "title": "Remove constrictions",
+        "instruction": "Gently remove rings, watches, belts, or tight clothing near the burned area before swelling begins.",
+        "warning": "Do not remove anything that is stuck to the burn."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Cover the burn",
+        "instruction": "Cover the burn loosely with a sterile gauze bandage, cling film, or a clean plastic bag. Do not use fluffy cotton or anything that can stick to the wound.",
+        "warning": null
+      },
+      {
+        "stepNumber": 4,
+        "title": "Manage pain",
+        "instruction": "Give paracetamol or ibuprofen to relieve pain if the person is conscious and it is not contraindicated. Follow dosage instructions carefully.",
+        "warning": null
+      },
+      {
+        "stepNumber": 5,
+        "title": "Monitor for shock",
+        "instruction": "Keep the person warm and calm. Watch for signs of shock: pale or ashen skin, rapid shallow breathing, dizziness, or loss of consciousness. Lay them down and elevate legs if possible.",
+        "warning": "Do not give fluids to someone showing signs of shock."
+      }
+    ],
+    "doNot": [
+      "Do not use ice, iced water, or creams on the burn",
+      "Do not burst any blisters that form",
+      "Do not remove clothing stuck to the burn",
+      "Do not use fluffy cotton wool directly on the burn"
+    ]
+  },
+  {
+    "injuryType": "FRACTURE",
+    "displayName": "Suspected Fracture",
+    "severity": "Serious",
+    "source": "Red Cross / WHO",
+    "callEmergency": true,
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Keep still",
+        "instruction": "Tell the person not to move the injured area. Support it gently in the position found using your hands or rolled clothing.",
+        "warning": null
+      },
+      {
+        "stepNumber": 2,
+        "title": "Immobilize the injury",
+        "instruction": "Use padding such as clothing or towels around the injury to support it and prevent movement. Do not attempt to straighten or reposition the bone.",
+        "warning": "Never try to push a protruding bone back in."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Apply cold compress",
+        "instruction": "Wrap ice or a cold pack in a cloth and apply to the injured area for up to 20 minutes to reduce swelling and pain. Never apply ice directly to skin.",
+        "warning": null
+      },
+      {
+        "stepNumber": 4,
+        "title": "Elevate if possible",
+        "instruction": "If it is a limb injury and movement does not cause additional pain, gently raise the limb above heart level using a pillow or folded clothing.",
+        "warning": null
+      },
+      {
+        "stepNumber": 5,
+        "title": "Treat for shock",
+        "instruction": "Have the person lie down on a firm surface. Keep them warm with a blanket. Do not give food or water as surgery may be required.",
+        "warning": "Call emergency services immediately for open fractures or spinal injuries."
+      }
+    ],
+    "doNot": [
+      "Do not attempt to realign or straighten the bone",
+      "Do not move the person if a spinal injury is suspected",
+      "Do not apply a tourniquet unless there is severe uncontrolled bleeding",
+      "Do not give food or water"
+    ]
+  },
+  {
+    "injuryType": "LACERATION",
+    "displayName": "Laceration / Deep Cut",
+    "severity": "Moderate",
+    "source": "Red Cross / WHO",
+    "callEmergency": false,
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Apply direct pressure",
+        "instruction": "Press firmly on the wound with a clean cloth, sterile pad, or bandage. Maintain continuous pressure for at least 10 minutes without lifting to check.",
+        "warning": null
+      },
+      {
+        "stepNumber": 2,
+        "title": "Clean the wound",
+        "instruction": "Once bleeding slows, rinse gently under clean running water for 5–10 minutes. Carefully remove visible surface debris with clean tweezers if available.",
+        "warning": "Do not probe or irrigate deep puncture wounds."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Apply antiseptic and cover",
+        "instruction": "Apply antiseptic ointment if available. Cover with a sterile bandage or clean non-fluffy cloth and secure with tape or a bandage.",
+        "warning": null
+      },
+      {
+        "stepNumber": 4,
+        "title": "Elevate the area",
+        "instruction": "Raise the injured limb above heart level to reduce blood flow to the wound and slow bleeding.",
+        "warning": null
+      },
+      {
+        "stepNumber": 5,
+        "title": "Monitor and replace dressing",
+        "instruction": "If blood soaks through the bandage, add more layers on top without removing the original dressing. Seek medical attention if bleeding does not stop within 20 minutes.",
+        "warning": "Seek emergency care for wounds with embedded objects — do not remove them."
+      }
+    ],
+    "doNot": [
+      "Do not remove objects embedded in the wound",
+      "Do not close deep wounds with tape alone",
+      "Do not use fluffy cotton directly on the wound",
+      "Do not remove the original dressing if it soaks through"
+    ]
+  },
+  {
+    "injuryType": "BITE",
+    "displayName": "Animal / Insect Bite",
+    "severity": "Variable",
+    "source": "Red Cross / WHO",
+    "callEmergency": true,
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Wash the bite thoroughly",
+        "instruction": "Wash the bite area immediately with soap and clean running water for at least 5 minutes. This is the single most important step to prevent infection.",
+        "warning": null
+      },
+      {
+        "stepNumber": 2,
+        "title": "Control bleeding",
+        "instruction": "Apply gentle but firm pressure with a clean cloth if the bite is bleeding. Elevate the affected area above heart level.",
+        "warning": null
+      },
+      {
+        "stepNumber": 3,
+        "title": "Apply cold compress",
+        "instruction": "Wrap ice in a cloth and apply to the bite for 10–15 minutes to reduce swelling, pain, and spread of venom if applicable.",
+        "warning": null
+      },
+      {
+        "stepNumber": 4,
+        "title": "Check for allergic reaction",
+        "instruction": "Monitor closely for signs of anaphylaxis: hives, facial swelling, throat tightening, difficulty breathing, rapid pulse, or dizziness. This is a medical emergency.",
+        "warning": "Anaphylaxis can occur within minutes. Use an epinephrine auto-injector (EpiPen) if available and call emergency services immediately."
+      },
+      {
+        "stepNumber": 5,
+        "title": "Seek medical attention",
+        "instruction": "All animal bites require professional medical evaluation for rabies post-exposure prophylaxis and tetanus risk. Do not delay even if the wound appears minor.",
+        "warning": null
+      }
+    ],
+    "doNot": [
+      "Do not suck out venom from snake or insect bites",
+      "Do not apply a tourniquet for snake bites",
+      "Do not apply heat to insect stings",
+      "Do not delay seeking medical care for animal bites"
+    ]
+  },
+  {
+    "injuryType": "SWELLING",
+    "displayName": "Swelling / Sprain",
+    "severity": "Mild",
+    "source": "Red Cross / WHO",
+    "callEmergency": false,
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Rest the injured area",
+        "instruction": "Stop all activity immediately. Help the person sit or lie down in a comfortable position and avoid putting weight on the injured area.",
+        "warning": null
+      },
+      {
+        "stepNumber": 2,
+        "title": "Apply ice",
+        "instruction": "Apply ice wrapped in a cloth or a cold pack to the swollen area for 20 minutes. Repeat every 2 hours for the first 48 hours.",
+        "warning": "Never apply ice directly to skin — always wrap in a cloth first."
+      },
+      {
+        "stepNumber": 3,
+        "title": "Compress the area",
+        "instruction": "Wrap with an elastic compression bandage starting below the injury and working upward. Wrap firmly but not so tight that it cuts off circulation.",
+        "warning": "Check that fingers or toes remain warm and pink. Loosen if they become numb or discoloured."
+      },
+      {
+        "stepNumber": 4,
+        "title": "Elevate",
+        "instruction": "Raise the injured limb above heart level using a pillow, cushion, or rolled clothing. Maintain elevation as much as possible for the first 24–48 hours.",
+        "warning": null
+      },
+      {
+        "stepNumber": 5,
+        "title": "Pain relief",
+        "instruction": "Offer ibuprofen or paracetamol if available and not contraindicated. Ibuprofen also helps reduce inflammation. Follow dosage instructions.",
+        "warning": null
+      }
+    ],
+    "doNot": [
+      "Do not apply heat in the first 48 hours",
+      "Do not wrap the bandage too tightly",
+      "Do not bear weight if a fracture is suspected",
+      "Do not massage the injured area"
+    ]
+  }
+]

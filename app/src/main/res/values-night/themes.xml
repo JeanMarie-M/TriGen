@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TriGen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#0D1B2A</item>
+        <item name="android:navigationBarColor">#0D1B2A</item>
+    </style>
+
+    <style name="Theme.TriGen.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0D1B2A</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/trigenlogo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.TriGen</item>
+    </style>
+
+</resources>

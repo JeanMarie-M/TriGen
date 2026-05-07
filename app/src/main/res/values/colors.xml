@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy_dark">#0D1B2A</color>
+    <color name="navy_mid">#1D3557</color>
+    <color name="navy_light">#2A4A6B</color>
+    <color name="red_primary">#E63946</color>
+    <color name="red_dark">#C1121F</color>
+    <color name="steel_blue">#457B9D</color>
+    <color name="teal_primary">#48CAE4</color>
+    <color name="teal_dark">#1D9E75</color>
+    <color name="silver_grey">#A8B2C1</color>
+    <color name="silver_light">#F1F3F6</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="amber">#EF9F27</color>
+</resources>

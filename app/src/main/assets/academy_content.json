@@ -1,0 +1,931 @@
+{
+  "modules": [
+    {
+      "id": "module_1",
+      "title": "Emergency Fundamentals",
+      "description": "Master the basics of first aid and emergency response",
+      "icon": "emergency",
+      "color": "#E63946",
+      "orderIndex": 1,
+      "totalLessons": 4,
+      "totalQuestions": 10
+    },
+    {
+      "id": "module_2",
+      "title": "Cardiac Emergencies",
+      "description": "CPR, AED use, and cardiac arrest response",
+      "icon": "favorite",
+      "color": "#E63946",
+      "orderIndex": 2,
+      "totalLessons": 4,
+      "totalQuestions": 10
+    },
+    {
+      "id": "module_3",
+      "title": "Bleeding & Wounds",
+      "description": "Control bleeding and manage all wound types",
+      "icon": "healing",
+      "color": "#C1121F",
+      "orderIndex": 3,
+      "totalLessons": 4,
+      "totalQuestions": 10
+    },
+    {
+      "id": "module_4",
+      "title": "Burns & Environmental",
+      "description": "Treat burns, heat stroke, and cold injuries",
+      "icon": "local_fire_department",
+      "color": "#EF9F27",
+      "orderIndex": 4,
+      "totalLessons": 4,
+      "totalQuestions": 10
+    },
+    {
+      "id": "module_5",
+      "title": "Fractures & Musculoskeletal",
+      "description": "Manage fractures, sprains, and spinal injuries",
+      "icon": "medical_services",
+      "color": "#457B9D",
+      "orderIndex": 5,
+      "totalLessons": 4,
+      "totalQuestions": 10
+    },
+    {
+      "id": "module_6",
+      "title": "Medical Emergencies",
+      "description": "Stroke, seizures, choking, and allergic reactions",
+      "icon": "local_hospital",
+      "color": "#1D9E75",
+      "orderIndex": 6,
+      "totalLessons": 5,
+      "totalQuestions": 10
+    }
+  ],
+  "lessons": [
+    {
+      "id": "m1_l1",
+      "moduleId": "module_1",
+      "title": "What is First Aid?",
+      "orderIndex": 1,
+      "durationMinutes": 5,
+      "content": "First aid is the immediate assistance given to a person who has been injured or suddenly taken ill before the arrival of professional medical help. The primary goals of first aid can be summarized as the three P's: Preserve life, Prevent the condition from worsening, and Promote recovery.\n\nFirst aid is not a replacement for professional medical care — it is a bridge that keeps a person alive and stable until paramedics or doctors can take over. In many emergencies, the first few minutes are critical. Early intervention can mean the difference between full recovery and permanent disability, or even life and death.\n\nAnyone can learn first aid. You do not need to be a medical professional. With basic training and a calm approach, an ordinary bystander can save a life.",
+      "keyPoints": "Preserve life|Prevent worsening|Promote recovery|Bridge to professional care|Anyone can learn"
+    },
+    {
+      "id": "m1_l2",
+      "moduleId": "module_1",
+      "title": "Scene Safety & Assessment",
+      "orderIndex": 2,
+      "durationMinutes": 6,
+      "content": "Before helping anyone, you must ensure the scene is safe. Rushing into a dangerous situation can turn you into a second casualty, which makes the situation worse.\n\nCheck for dangers including: moving traffic, fire or smoke, toxic chemicals or gases, electrical hazards, unstable structures, violent persons, or extreme weather conditions.\n\nOnly approach when the scene is safe. If you cannot make it safe, call emergency services and wait for professional help. Your safety comes first.\n\nOnce the scene is safe, quickly assess the situation: How many casualties are there? What happened? What resources do you have available? Is help already on the way?\n\nThis initial assessment takes only seconds but directs everything that follows.",
+      "keyPoints": "Safety first|Check for dangers|Never create a second casualty|Assess the situation|Count casualties"
+    },
+    {
+      "id": "m1_l3",
+      "moduleId": "module_1",
+      "title": "The DRSABCD Protocol",
+      "orderIndex": 3,
+      "durationMinutes": 8,
+      "content": "DRSABCD is the universal primary survey used to identify and manage immediate threats to life. Every letter represents a critical step.\n\nD — Danger: Check the scene is safe for you, bystanders, and the casualty.\n\nR — Response: Check if the person is conscious using COWS: Can you hear me? Open your eyes. What is your name? Squeeze my hand.\n\nS — Send for Help: Call emergency services immediately. If others are present, direct a specific person: point at them and say 'YOU — call 911 now.' Ask someone to locate an AED.\n\nA — Airway: Open the airway using the head-tilt chin-lift maneuver. Place one hand on the forehead, gently tilt the head back, and use your fingertips to lift the chin.\n\nB — Breathing: Look, listen, and feel for normal breathing for no more than 10 seconds. Occasional gasping is NOT normal breathing.\n\nC — CPR: If not breathing normally, begin chest compressions immediately. Push hard and fast at the centre of the chest — 30 compressions followed by 2 rescue breaths.\n\nD — Defibrillation: As soon as an AED arrives, switch it on and follow the voice prompts.",
+      "keyPoints": "Danger|Response (COWS)|Send for help|Airway (head-tilt chin-lift)|Breathing (10 seconds)|CPR (30:2)|Defibrillation (AED)"
+    },
+    {
+      "id": "m1_l4",
+      "moduleId": "module_1",
+      "title": "Calling for Emergency Help",
+      "orderIndex": 4,
+      "durationMinutes": 4,
+      "content": "Calling emergency services effectively can save valuable time. When you call, stay calm and be prepared to provide specific information.\n\nWhat to tell the dispatcher:\n1. Your exact location — be as specific as possible. Give street names, landmarks, building names, or GPS coordinates if available.\n2. What happened — describe the emergency briefly and clearly.\n3. Number of casualties — how many people are injured.\n4. Condition of casualties — are they conscious? Breathing? Bleeding?\n5. What first aid is being given — tell them what you are already doing.\n\nDo not hang up until the dispatcher tells you to. They may give you life-saving instructions while help is on the way.\n\nIf you are alone and need to start CPR, put the phone on speaker so you can continue giving care while staying on the line.\n\nCommon emergency numbers: 911 (USA/Canada), 999 (UK), 112 (Europe/International), 000 (Australia).",
+      "keyPoints": "Stay calm|Give exact location|Describe the emergency|State number of casualties|Do not hang up|Common numbers: 911, 999, 112"
+    },
+    {
+      "id": "m2_l1",
+      "moduleId": "module_2",
+      "title": "Recognizing Cardiac Arrest",
+      "orderIndex": 1,
+      "durationMinutes": 5,
+      "content": "Cardiac arrest occurs when the heart suddenly stops beating effectively. Without immediate treatment, it is fatal within minutes. Recognizing it quickly is essential.\n\nSigns of cardiac arrest:\n• Sudden collapse or unresponsiveness\n• No normal breathing — the person may gasp occasionally (agonal breathing) but this is NOT normal breathing\n• No pulse (though checking a pulse is difficult for untrained bystanders)\n• Skin may become pale, grey, or blue (cyanosis)\n\nCardiac arrest is different from a heart attack. A heart attack is a blockage in the blood supply to the heart — the person is usually conscious, complaining of chest pain. Cardiac arrest is when the heart stops — the person is unconscious and not breathing normally.\n\nIf someone collapses and is unresponsive with no normal breathing, assume cardiac arrest and begin CPR immediately. Do not waste time searching for a pulse.",
+      "keyPoints": "Sudden collapse|No normal breathing|Unresponsive|Different from heart attack|Begin CPR immediately|Every second counts"
+    },
+    {
+      "id": "m2_l2",
+      "moduleId": "module_2",
+      "title": "CPR for Adults",
+      "orderIndex": 2,
+      "durationMinutes": 10,
+      "content": "CPR (Cardiopulmonary Resuscitation) keeps blood and oxygen flowing to the brain and vital organs when the heart has stopped. Effective CPR can double or triple survival rates.\n\nPosition yourself:\nKneel beside the person. Place the heel of your hand on the centre of their chest (lower half of the breastbone). Place your other hand on top, interlocking fingers. Keep your arms straight.\n\nChest compressions:\nPush down firmly to a depth of 5–6 cm (2–2.5 inches). Release fully between compressions — do not lean on the chest. Perform 30 compressions at a rate of 100–120 per minute. Count aloud to maintain rhythm.\n\nRescue breaths:\nAfter 30 compressions, tilt the head back and lift the chin. Pinch the nose closed. Seal your mouth over theirs and give 2 breaths of 1 second each. Watch for the chest to rise.\n\nContinue the 30:2 cycle until: the person shows signs of life, an AED is ready to use, professional help takes over, or you are physically unable to continue.\n\nHands-only CPR: If you are not trained or unwilling to give rescue breaths, continuous chest compressions alone are still highly effective.",
+      "keyPoints": "30 compressions : 2 breaths|Centre of chest|5-6cm depth|100-120 BPM|Straight arms|Hands-only CPR is acceptable"
+    },
+    {
+      "id": "m2_l3",
+      "moduleId": "module_2",
+      "title": "AED Usage",
+      "orderIndex": 3,
+      "durationMinutes": 7,
+      "content": "An AED (Automated External Defibrillator) is a device that can restore a normal heart rhythm by delivering an electric shock. Modern AEDs are designed for use by anyone — they provide clear voice instructions and will not deliver a shock unless it is needed.\n\nSteps to use an AED:\n\n1. Power ON: Open the case and press the power button (some turn on automatically when opened).\n\n2. Apply pads: Attach the electrode pads as shown in the diagram on the pads themselves. One pad goes to the right of the breastbone, below the collarbone. The other goes on the left side of the chest, below the armpit.\n\n3. Clear the area: Say 'Stand clear!' loudly and ensure nobody is touching the person while the AED analyzes the heart rhythm.\n\n4. Deliver shock if advised: If the AED advises a shock, ensure everyone is clear and press the shock button. If no shock is advised, resume CPR immediately.\n\n5. Resume CPR: Immediately after the shock, continue CPR for 2 minutes before allowing the AED to re-analyze.\n\nSpecial considerations: Remove any medication patches from the chest. If the person has a pacemaker, place pads away from the device. Do not use in water.",
+      "keyPoints": "Power ON|Attach pads correctly|Stand clear before shock|Resume CPR immediately after|Safe for untrained users|AED will not shock if not needed"
+    },
+    {
+      "id": "m2_l4",
+      "moduleId": "module_2",
+      "title": "Recovery Position",
+      "orderIndex": 4,
+      "durationMinutes": 5,
+      "content": "The recovery position is used for a person who is unconscious but breathing normally. It keeps the airway open and prevents choking if they vomit.\n\nWhen to use it:\nUse the recovery position when a person is unconscious and breathing normally but CPR is not needed. Do NOT use if a spinal injury is suspected.\n\nHow to place someone in the recovery position:\n1. Kneel beside the person on the floor.\n2. Place the arm nearest to you at a right angle to the body, elbow bent upward.\n3. Bring their far arm across the chest and hold the back of that hand against their near cheek.\n4. With your other hand, pull up the far knee so the foot is flat on the ground.\n5. Keeping their hand against their cheek, pull on the bent knee to roll them towards you onto their side.\n6. Adjust the top leg so both hip and knee are at right angles.\n7. Tilt the head back gently to keep the airway open.\n8. Stay with them and monitor their breathing until help arrives.\n\nIf they stop breathing at any time, roll them onto their back and begin CPR immediately.",
+      "keyPoints": "Unconscious but breathing|Prevents choking|Not for spinal injuries|Monitor breathing|Roll towards you|Tilt head back"
+    },
+    {
+      "id": "m3_l1",
+      "moduleId": "module_3",
+      "title": "Types of Bleeding",
+      "orderIndex": 1,
+      "durationMinutes": 5,
+      "content": "Understanding the type of bleeding helps you respond appropriately. There are three types:\n\nArterial bleeding: Blood from arteries is bright red and spurts with each heartbeat. It is the most serious type and can be life-threatening within minutes. Requires immediate, firm pressure.\n\nVenous bleeding: Blood from veins is dark red and flows steadily. It is serious but generally easier to control than arterial bleeding.\n\nCapillary bleeding: Slow oozing from small blood vessels near the skin surface. This is the most common type and usually stops on its own with basic first aid.\n\nInternal bleeding: Bleeding inside the body that is not visible. Signs include bruising, swelling, pain, shock symptoms (pale, cold, clammy skin, rapid weak pulse, confusion), vomiting blood, or blood in urine or stool. Internal bleeding is a medical emergency — call 911 immediately.",
+      "keyPoints": "Arterial — bright red, spurting|Venous — dark red, steady flow|Capillary — slow oozing|Internal — not visible but life-threatening|Arterial is most urgent"
+    },
+    {
+      "id": "m3_l2",
+      "moduleId": "module_3",
+      "title": "Controlling Bleeding",
+      "orderIndex": 2,
+      "durationMinutes": 7,
+      "content": "Controlling bleeding quickly is one of the most important first aid skills. Uncontrolled bleeding can lead to shock and death within minutes.\n\nDirect pressure (primary method):\n1. Put on gloves if available to protect yourself.\n2. Apply a clean cloth, sterile gauze, or bandage directly over the wound.\n3. Press firmly and continuously for at least 10 minutes without lifting to check.\n4. If blood soaks through, add more layers on top — do not remove the original dressing.\n5. Once bleeding slows, secure the dressing with a bandage.\n\nElevation: Raise the injured limb above heart level to reduce blood pressure at the wound site. Do this alongside direct pressure, not instead of it.\n\nTourniquet: Use for severe limb bleeding that cannot be controlled with direct pressure alone. Apply 5–7 cm above the wound. Tighten until bleeding stops. Record the time applied. Do not remove once applied — this must be done by medical professionals.\n\nPressure points: Pressing on arteries that supply blood to a limb can reduce bleeding. The brachial artery (upper arm) and femoral artery (groin) are the main pressure points used.",
+      "keyPoints": "Direct pressure — 10 minutes minimum|Do not remove original dressing|Elevate limb|Tourniquet for severe limb bleeding|Record tourniquet time|Use gloves"
+    },
+    {
+      "id": "m3_l3",
+      "moduleId": "module_3",
+      "title": "Wound Cleaning & Dressing",
+      "orderIndex": 3,
+      "durationMinutes": 6,
+      "content": "Proper wound care prevents infection and promotes healing. After controlling bleeding, clean and dress the wound appropriately.\n\nCleaning the wound:\n1. Wash your hands thoroughly before touching the wound.\n2. Rinse the wound under clean running water for 5–10 minutes to remove dirt and bacteria.\n3. Gently remove visible surface debris with clean tweezers — do not probe deeply.\n4. Do not use hydrogen peroxide or iodine directly in the wound as these damage tissue.\n5. Pat dry with a clean cloth.\n\nApplying antiseptic: Apply a thin layer of antiseptic ointment if available to prevent infection.\n\nDressing the wound:\n1. Cover with a sterile non-adherent dressing or clean cloth.\n2. Secure with a bandage or medical tape.\n3. The dressing should cover the wound completely with at least 2 cm overlap on all sides.\n\nWhen to seek medical attention:\n• Deep or gaping wounds that may need stitches\n• Wounds that will not stop bleeding\n• Bite wounds (animal or human)\n• Wounds with embedded objects\n• Signs of infection: redness, warmth, swelling, pus, fever",
+      "keyPoints": "Wash hands first|Rinse with clean water 5-10 min|No hydrogen peroxide in wound|Cover completely|Seek help for deep wounds|Watch for infection signs"
+    },
+    {
+      "id": "m3_l4",
+      "moduleId": "module_3",
+      "title": "Embedded Objects & Special Wounds",
+      "orderIndex": 4,
+      "durationMinutes": 6,
+      "content": "Some wounds require special consideration and different management approaches.\n\nEmbedded objects:\nNEVER remove an object embedded in a wound. The object may be plugging the wound and preventing catastrophic bleeding. Instead: leave the object in place, build up padding around it to support and immobilize it, bandage around the object without putting pressure on it, and seek emergency medical care immediately.\n\nAmputations:\nControl bleeding with direct pressure and elevation. If possible, wrap the amputated part in a clean, damp cloth, place it in a plastic bag, and then place the bag in ice water (not directly on ice). Bring it to the hospital — reattachment may be possible.\n\nNose bleeds:\nHave the person sit upright and lean slightly forward. Pinch the soft part of the nose firmly for 10–15 minutes without releasing. Breathe through the mouth. Do not tilt the head back — this causes blood to flow into the throat.\n\nPuncture wounds:\nThese appear small but can be deep. Clean thoroughly and seek medical attention as they carry a high risk of infection and tetanus.",
+      "keyPoints": "Never remove embedded objects|Support and pad around object|Amputations — keep part cool and moist|Nose bleeds — lean forward, pinch soft part|Puncture wounds need medical care"
+    },
+    {
+      "id": "m4_l1",
+      "moduleId": "module_4",
+      "title": "Understanding Burns",
+      "orderIndex": 1,
+      "durationMinutes": 6,
+      "content": "Burns are classified by depth and extent. Understanding the classification helps determine the severity and appropriate treatment.\n\nFirst degree (superficial) burns: Only the outer layer of skin (epidermis) is affected. The skin is red, dry, and painful — similar to sunburn. Usually heals without scarring in 3–5 days.\n\nSecond degree (partial thickness) burns: The epidermis and part of the dermis are damaged. The skin is red, blistered, wet-looking, and very painful. Heals in 2–3 weeks and may scar.\n\nThird degree (full thickness) burns: All layers of skin are destroyed. The skin may appear white, brown, or black and leathery. Paradoxically, third degree burns are often painless at the burn site because nerve endings are destroyed. Always require emergency medical care and skin grafting.\n\nExtent of burns: The Rule of Nines estimates what percentage of body surface is burned. The head = 9%, each arm = 9%, each leg = 18%, front torso = 18%, back torso = 18%, genitalia = 1%.\n\nSeek emergency help for: burns larger than 3 inches, burns on face, hands, feet, genitals, or over joints, third degree burns, chemical or electrical burns, and inhalation burns.",
+      "keyPoints": "1st degree — red, dry|2nd degree — blistered, wet|3rd degree — leathery, painless|Rule of Nines for extent|Always get help for large or deep burns"
+    },
+    {
+      "id": "m4_l2",
+      "moduleId": "module_4",
+      "title": "Treating Burns",
+      "orderIndex": 2,
+      "durationMinutes": 7,
+      "content": "Correct burn treatment reduces pain, limits damage, and prevents infection. The most important step is cooling — done correctly and quickly.\n\nCooling the burn:\n1. Hold the burned area under cool (not cold) running water immediately for a minimum of 20 minutes. Do not stop early — the full 20 minutes is essential.\n2. Remove rings, watches, belts, and tight clothing near the burn before swelling begins — do not remove anything stuck to the burn.\n3. Do not use ice, iced water, butter, toothpaste, or any creams — these cause further damage.\n\nCovering the burn:\n1. After cooling, cover loosely with cling film laid flat, or a clean plastic bag.\n2. Do not wrap tightly — this traps heat and restricts circulation.\n3. Do not use fluffy materials like cotton wool that can stick to the wound.\n\nManaging pain and shock:\n• Give paracetamol or ibuprofen if available.\n• Keep the person warm — burns cause rapid heat loss.\n• Watch for signs of shock: pale skin, rapid breathing, confusion.\n\nChemical burns: Remove contaminated clothing (protect yourself). Flush with large amounts of water for 20+ minutes. Do not try to neutralize the chemical.\n\nElectrical burns: Do not touch the person if they are still in contact with the electrical source. Switch off the power first. Electrical burns are often much worse internally than they appear externally.",
+      "keyPoints": "Cool under running water 20 minutes|No ice or creams|Cover with cling film|Keep warm|Chemical burns — flush with water|Electrical burns — switch off power first"
+    },
+    {
+      "id": "m4_l3",
+      "moduleId": "module_4",
+      "title": "Heat Emergencies",
+      "orderIndex": 3,
+      "durationMinutes": 6,
+      "content": "Heat emergencies occur when the body overheats and can no longer regulate its temperature. There are three progressively serious conditions.\n\nHeat cramps: Painful muscle spasms, usually in legs or abdomen, during or after exercise in heat. Treatment: rest in a cool place, drink water or sports drinks, gently stretch and massage the muscle.\n\nHeat exhaustion: The body is overheating but not yet at dangerous temperatures. Symptoms: heavy sweating, cool pale clammy skin, fast weak pulse, nausea, headache, dizziness, weakness.\nTreatment: Move to a cool place. Loosen clothing. Apply cool wet cloths. Have them sip cool water if conscious. Fan them. If no improvement in 15 minutes or they vomit, call 911.\n\nHeat stroke: A life-threatening emergency where body temperature exceeds 40°C (104°F). Symptoms: high body temperature, hot red dry or damp skin, rapid strong pulse, confusion, slurred speech, loss of consciousness.\nTreatment: Call 911 immediately. Cool the person rapidly by any means available — cool water immersion is most effective, cold wet towels to neck, armpits and groin, fanning. Do not give fluids if confused or unconscious.",
+      "keyPoints": "Heat cramps — rest and hydrate|Heat exhaustion — cool and hydrate|Heat stroke — 911, cool rapidly|Heat stroke is life-threatening|Body temp over 40°C is dangerous"
+    },
+    {
+      "id": "m4_l4",
+      "moduleId": "module_4",
+      "title": "Hypothermia & Cold Injuries",
+      "orderIndex": 4,
+      "durationMinutes": 6,
+      "content": "Cold injuries occur when exposure to low temperatures damages tissues. They range from mild to life-threatening.\n\nHypothermia occurs when body temperature drops below 35°C (95°F). Symptoms progress through three stages:\n\nMild (32–35°C): Shivering, cold pale skin, confusion, poor coordination, slurred speech.\nModerate (28–32°C): Shivering stops (a dangerous sign — the body can no longer generate heat), increasing confusion, muscle stiffness.\nSevere (below 28°C): Unconsciousness, barely detectable pulse, may appear dead.\n\nTreating hypothermia:\n1. Move the person to a warm, dry environment.\n2. Handle gently — cold hearts are prone to dangerous arrhythmias.\n3. Remove wet clothing carefully.\n4. Cover with dry blankets, including the head.\n5. Give warm, sweet drinks if conscious and able to swallow.\n6. Apply warm packs to neck, armpits, and groin — never apply direct heat.\n7. Call 911 for moderate to severe cases.\n\nFrostbite: Freezing of skin and tissue, most commonly affecting fingers, toes, nose, and ears. Symptoms: numbness, white or grayish skin, hard texture. Do not rub frostbitten tissue. Rewarm in warm (not hot) water at 37–40°C only if refreezing is not possible.",
+      "keyPoints": "Below 35°C is hypothermia|Shivering stopping is dangerous sign|Warm gradually|No direct heat|Gentle handling|Frostbite — do not rub"
+    },
+    {
+      "id": "m5_l1",
+      "moduleId": "module_5",
+      "title": "Recognizing Fractures",
+      "orderIndex": 1,
+      "durationMinutes": 5,
+      "content": "A fracture is a break or crack in a bone. They range from hairline cracks to complete breaks with bone displacement.\n\nTypes of fractures:\nClosed fracture: The bone is broken but the skin is intact.\nOpen (compound) fracture: The bone breaks through the skin. High risk of infection and blood loss — a medical emergency.\nStress fracture: A hairline crack from repetitive force.\nGreenstick fracture: An incomplete break, common in children whose bones are more flexible.\n\nSigns and symptoms of a fracture:\n• Pain at the injury site, worsening with movement\n• Tenderness when touched\n• Swelling and bruising\n• Deformity — the limb looks abnormal or at an unnatural angle\n• Inability to move the limb normally\n• Numbness or tingling (may indicate nerve involvement)\n• A snapping or cracking sound at the time of injury\n• In open fractures: visible bone or wound near the injury site\n\nDo not assume no fracture just because the person can move the limb — some fractures allow partial movement.",
+      "keyPoints": "Closed vs open fractures|Open fractures are emergencies|Pain, swelling, deformity|Snapping sound|Cannot rule out fracture by movement alone"
+    },
+    {
+      "id": "m5_l2",
+      "moduleId": "module_5",
+      "title": "Immobilization & Splinting",
+      "orderIndex": 2,
+      "durationMinutes": 7,
+      "content": "The primary goal of fracture management in first aid is immobilization — keeping the broken bone still to prevent further injury.\n\nGeneral principles:\n• Do not try to straighten or realign the bone.\n• Support the injury in the position found.\n• Immobilize the joint above and below the fracture site.\n• Check circulation below the injury (pulse, color, sensation, temperature) before and after splinting.\n\nSplinting:\nA splint can be made from any rigid material — a rolled newspaper, cardboard, or sticks. Pad the splint generously with soft material before applying. Secure with bandages or strips of cloth above and below the fracture — not over it. Ensure it is firm but not so tight it restricts circulation.\n\nSlings:\nFor arm and shoulder injuries, a sling supports and immobilizes the limb. A triangular bandage is ideal. A jacket or large cloth can substitute. The arm should be supported in a comfortable position across the chest.\n\nOpen fractures:\nDo not push the bone back in. Cover the wound gently with a sterile dressing around (not over) the exposed bone. Control bleeding with gentle pressure around the wound. Immobilize and call 911 immediately.",
+      "keyPoints": "Do not realign bone|Immobilize above and below|Check circulation|Pad the splint|Slings for arm injuries|Open fractures — cover and call 911"
+    },
+    {
+      "id": "m5_l3",
+      "moduleId": "module_5",
+      "title": "Spinal Injuries",
+      "orderIndex": 3,
+      "durationMinutes": 7,
+      "content": "Spinal injuries are among the most serious in first aid. Incorrect handling can convert a survivable injury into permanent paralysis or death.\n\nWhen to suspect a spinal injury:\n• High-energy trauma: car accident, fall from height, diving into shallow water, rugby or football tackle\n• Any unconscious trauma patient\n• Neck or back pain after trauma\n• Numbness or tingling in arms or legs\n• Weakness or inability to move limbs\n• Loss of bladder or bowel control\n\nGeneral management:\n1. Do not move the person unless they are in immediate danger.\n2. Keep the head, neck, and spine in a neutral, straight position.\n3. If the person must be moved, use the log roll technique with multiple helpers, keeping the head, neck, and body aligned.\n4. If the person is wearing a helmet, do not remove it unless airway management requires it.\n5. Reassure the person and keep them still until professional help arrives.\n\nAirway management in spinal injuries:\nIf breathing is compromised, airway takes priority over spinal precautions. Use the jaw-thrust maneuver instead of head-tilt chin-lift to open the airway without moving the neck.",
+      "keyPoints": "High-energy trauma — suspect spinal|Do not move unless immediate danger|Neutral spine position|Log roll with helpers|Jaw-thrust for airway|Helmet removal only if necessary"
+    },
+    {
+      "id": "m5_l4",
+      "moduleId": "module_5",
+      "title": "Sprains, Strains & Dislocations",
+      "orderIndex": 4,
+      "durationMinutes": 6,
+      "content": "Soft tissue injuries are extremely common and range from minor to severe.\n\nSprains: A ligament (connecting bone to bone) is stretched or torn. Most commonly affect the ankle, knee, and wrist. Symptoms: pain, swelling, bruising, difficulty bearing weight.\n\nStrains: A muscle or tendon is stretched or torn. Common in the back, hamstring, and calf. Symptoms: sudden pain with movement, muscle spasm, swelling, weakness.\n\nTreatment for sprains and strains — RICE method:\nR — Rest: Stop the activity. Avoid weight bearing.\nI — Ice: Apply ice wrapped in cloth for 20 minutes every 2 hours for 48 hours. Do NOT apply ice directly to skin.\nC — Compression: Wrap with an elastic bandage from below the injury upward. Firm but not tight enough to restrict circulation. Loosen if numbness or tingling develops.\nE — Elevation: Raise the injured limb above heart level to reduce swelling.\n\nDislocations: A joint is forced out of its normal position. Common sites: shoulder, finger, kneecap. Symptoms: obvious deformity, severe pain, inability to move the joint, swelling.\n\nDo NOT attempt to relocate a dislocated joint — this requires medical expertise and can cause serious damage if done incorrectly. Immobilize in position found, apply ice, and seek medical care.",
+      "keyPoints": "Sprains — ligaments|Strains — muscles/tendons|RICE: Rest, Ice, Compression, Elevation|Ice — 20 min every 2 hours|Never relocate a dislocation|Seek medical care for dislocations"
+    },
+    {
+      "id": "m6_l1",
+      "moduleId": "module_6",
+      "title": "Stroke Recognition & Response",
+      "orderIndex": 1,
+      "durationMinutes": 6,
+      "content": "A stroke occurs when blood supply to part of the brain is cut off, causing brain cells to die. Every minute of delay increases permanent brain damage. Rapid recognition and response is critical.\n\nUsing the FAST assessment:\nF — Face: Ask the person to smile. Does one side of the face droop?\nA — Arms: Ask them to raise both arms. Does one arm drift downward?\nS — Speech: Ask them to repeat a simple phrase. Is their speech slurred, strange, or unable to speak?\nT — Time: If any of these signs are present, call 911 immediately. Note the exact time symptoms started — this is critical for treatment decisions.\n\nOther symptoms of stroke:\n• Sudden severe headache with no known cause\n• Sudden vision changes — blurred, double, or loss of vision in one or both eyes\n• Sudden confusion or trouble understanding\n• Sudden numbness or weakness on one side of the body\n• Sudden trouble walking, dizziness, loss of balance\n\nFirst aid for stroke:\n1. Call 911 immediately — time is brain.\n2. Keep the person calm and still.\n3. If conscious, lay them down with head and shoulders slightly raised.\n4. Do not give food or water — swallowing may be impaired.\n5. If unconscious and breathing, place in recovery position.\n6. Monitor breathing until help arrives.",
+      "keyPoints": "FAST: Face, Arms, Speech, Time|Call 911 immediately|Note exact time of symptoms|Do not give food or water|Time is brain — every minute matters"
+    },
+    {
+      "id": "m6_l2",
+      "moduleId": "module_6",
+      "title": "Seizures",
+      "orderIndex": 2,
+      "durationMinutes": 6,
+      "content": "A seizure is caused by abnormal electrical activity in the brain. They can range from brief blank stares to full convulsions. Most seizures last 1–3 minutes and stop on their own.\n\nTypes of seizures:\nTonic-clonic (grand mal): Loss of consciousness with stiffening (tonic phase) followed by jerking movements (clonic phase). Most dramatic and recognizable.\nAbsence: Brief blank stare, may not be noticed. Common in children.\nFocal: Affects only part of the body or causes unusual sensations.\n\nFirst aid for tonic-clonic seizures:\n1. Stay calm. Time the seizure.\n2. Protect the person from injury — clear away hard or sharp objects.\n3. Cushion the head with something soft.\n4. Do NOT restrain the person or hold them down.\n5. Do NOT put anything in their mouth — this is a dangerous myth. They CANNOT swallow their tongue.\n6. Turn them onto their side (recovery position) when convulsions stop.\n7. Stay with them — confusion and drowsiness after a seizure (postictal state) is normal.\n\nCall 911 if: seizure lasts more than 5 minutes, they do not regain consciousness, another seizure follows quickly, they are injured, pregnant, or in water, or it is their first known seizure.",
+      "keyPoints": "Do not restrain|Do not put anything in mouth|Time the seizure|Protect from injury|Recovery position after|Call 911 if over 5 minutes"
+    },
+    {
+      "id": "m6_l3",
+      "moduleId": "module_6",
+      "title": "Choking",
+      "orderIndex": 3,
+      "durationMinutes": 7,
+      "content": "Choking occurs when a foreign object partially or completely blocks the airway. Complete obstruction is a life-threatening emergency requiring immediate action.\n\nRecognizing choking:\nMild obstruction: Person can cough, speak, or breathe. Encourage them to keep coughing — do not interfere.\nSevere obstruction: Person cannot cough effectively, speak, or breathe. May clutch their throat (universal choking sign), skin may turn blue, may become unconscious.\n\nFor conscious adults and children over 1 year:\n1. Call 911 or ask someone to call.\n2. Give up to 5 firm back blows: Stand to the side and slightly behind. Support their chest. Give 5 firm blows between the shoulder blades with the heel of your hand.\n3. Give up to 5 abdominal thrusts (Heimlich maneuver): Stand behind the person. Place one foot forward for stability. Make a fist with one hand and place it thumb side against the abdomen, just above the navel and below the ribs. Grasp the fist with your other hand. Give 5 quick inward and upward thrusts.\n4. Alternate 5 back blows and 5 abdominal thrusts until the object is dislodged or they become unconscious.\n\nIf they become unconscious: lower them to the ground, call 911, and begin CPR. Each time you open the airway to give breaths, look for the object and remove it only if clearly visible.\n\nFor infants (under 1 year): Use 5 back blows and 5 chest thrusts (not abdominal thrusts — abdominal thrusts can damage infant organs).",
+      "keyPoints": "Mild obstruction — encourage coughing|5 back blows + 5 abdominal thrusts|Alternate until cleared|If unconscious — CPR|Infants — chest thrusts not abdominal|Universal choking sign"
+    },
+    {
+      "id": "m6_l4",
+      "moduleId": "module_6",
+      "title": "Allergic Reactions & Anaphylaxis",
+      "orderIndex": 4,
+      "durationMinutes": 7,
+      "content": "An allergic reaction occurs when the immune system overreacts to a substance (allergen). Reactions range from mild to the life-threatening emergency of anaphylaxis.\n\nMild to moderate allergic reaction:\nSymptoms: hives (red itchy raised skin), redness, swelling (not throat), runny nose, watery eyes, mild nausea.\nTreatment: Remove the allergen if possible. Antihistamines can help. Monitor closely for progression to anaphylaxis.\n\nAnaphylaxis — a life-threatening emergency:\nSymptoms develop rapidly (usually within minutes):\n• Throat and tongue swelling — difficulty swallowing or breathing\n• Severe breathing difficulty — wheezing or stridor\n• Severe drop in blood pressure — dizziness, fainting\n• Rapid weak pulse\n• Pale or blue skin\n• Loss of consciousness\n\nTreatment of anaphylaxis:\n1. Call 911 immediately.\n2. Epinephrine (adrenaline) auto-injector (EpiPen): If the person has one, help them use it or use it for them. Inject into outer mid-thigh. Can be given through clothing. Hold for 10 seconds.\n3. Lay the person flat with legs elevated (if unconscious or having difficulty breathing, sit them up).\n4. If no improvement after 5–15 minutes, a second EpiPen can be given if available.\n5. Begin CPR if they become unresponsive and stop breathing.\n6. Even if the person improves with epinephrine, they MUST go to hospital — symptoms can return.",
+      "keyPoints": "Anaphylaxis is life-threatening|EpiPen in outer thigh|Call 911 immediately|Lay flat with legs raised|Must go to hospital even if improved|Symptoms can return"
+    },
+    {
+      "id": "m6_l5",
+      "moduleId": "module_6",
+      "title": "Diabetic Emergencies & Poisoning",
+      "orderIndex": 5,
+      "durationMinutes": 7,
+      "content": "Diabetic emergencies and poisoning are medical emergencies requiring specific first aid responses.\n\nHypoglycemia (Low Blood Sugar):\nOccurs when blood glucose falls dangerously low. Common in diabetics who have taken too much insulin, missed a meal, or exercised heavily.\nSymptoms: shakiness, sweating, confusion, irritability, pale skin, rapid heartbeat, headache, blurred vision, seizures in severe cases.\nTreatment (if conscious and able to swallow): Give fast-acting sugar immediately — 4 glucose tablets, 150ml of fruit juice, or regular soda, or 1 tablespoon of sugar or honey. If improved after 15 minutes, give a carbohydrate snack. If no improvement or unconscious, call 911 — do not give anything by mouth to an unconscious person.\n\nHyperglycemia (High Blood Sugar):\nBuilds up slowly. Symptoms: excessive thirst, frequent urination, fatigue, blurred vision, fruity-smelling breath.\nTreatment: If conscious and confirmed diabetic, encourage them to check blood sugar and take their medication. Seek medical advice.\n\nPoisoning:\nCan occur by ingestion, inhalation, skin absorption, or injection.\nGeneral principles: Call Poison Control or 911. Do not induce vomiting unless specifically instructed by Poison Control. Bring the container or substance to hospital. If inhalation, move to fresh air. If skin contact, remove contaminated clothing and wash with water for 20 minutes.",
+      "keyPoints": "Hypoglycemia — give sugar if conscious|Never give food/drink to unconscious|Call 911 if no improvement|Poisoning — call Poison Control|Do not induce vomiting unless instructed|Bring container to hospital"
+    }
+  ],
+  "questions": [
+    {
+      "id": "m1_q1", "moduleId": "module_1", "orderIndex": 1,
+      "question": "What are the three primary goals of first aid?",
+      "optionA": "Clean, cover, and call",
+      "optionB": "Preserve life, prevent worsening, promote recovery",
+      "optionC": "Diagnose, treat, and discharge",
+      "optionD": "Assess, stabilize, and transport",
+      "correctAnswer": "B",
+      "explanation": "The three P's of first aid are: Preserve life, Prevent the condition from worsening, and Promote recovery."
+    },
+    {
+      "id": "m1_q2", "moduleId": "module_1", "orderIndex": 2,
+      "question": "What does the 'R' in DRSABCD stand for?",
+      "optionA": "Rescue",
+      "optionB": "Resuscitate",
+      "optionC": "Response",
+      "optionD": "Remove",
+      "correctAnswer": "C",
+      "explanation": "R stands for Response — checking if the person is conscious using the COWS method."
+    },
+    {
+      "id": "m1_q3", "moduleId": "module_1", "orderIndex": 3,
+      "question": "What does COWS stand for in checking responsiveness?",
+      "optionA": "Check, Observe, Watch, Signal",
+      "optionB": "Can you hear me, Open your eyes, What is your name, Squeeze my hand",
+      "optionC": "Conscious, Oriented, Walking, Stable",
+      "optionD": "Call out, Observe, Wait, Stimulate",
+      "correctAnswer": "B",
+      "explanation": "COWS: Can you hear me? Open your eyes. What is your name? Squeeze my hand."
+    },
+    {
+      "id": "m1_q4", "moduleId": "module_1", "orderIndex": 4,
+      "question": "Why is it important to check for danger before approaching a casualty?",
+      "optionA": "To assess injury severity",
+      "optionB": "To avoid creating a second casualty",
+      "optionC": "It is not important — help first",
+      "optionD": "To find equipment",
+      "correctAnswer": "B",
+      "explanation": "Rushing into a dangerous scene can make you a second casualty, making the situation worse."
+    },
+    {
+      "id": "m1_q5", "moduleId": "module_1", "orderIndex": 5,
+      "question": "When calling emergency services, what information is most critical to provide first?",
+      "optionA": "Your name and phone number",
+      "optionB": "The casualty's age",
+      "optionC": "Your exact location",
+      "optionD": "The casualty's medical history",
+      "correctAnswer": "C",
+      "explanation": "Your exact location is most critical so that emergency services can reach you as quickly as possible."
+    },
+    {
+      "id": "m1_q6", "moduleId": "module_1", "orderIndex": 6,
+      "question": "What does 'D' stand for in the second DRSABCD step?",
+      "optionA": "Danger",
+      "optionB": "Diagnosis",
+      "optionC": "Defibrillation",
+      "optionD": "Both A and C",
+      "correctAnswer": "D",
+      "explanation": "D appears twice in DRSABCD — the first D is Danger (scene safety) and the last D is Defibrillation."
+    },
+    {
+      "id": "m1_q7", "moduleId": "module_1", "orderIndex": 7,
+      "question": "How long should you check for breathing in the primary survey?",
+      "optionA": "30 seconds",
+      "optionB": "1 minute",
+      "optionC": "No more than 10 seconds",
+      "optionD": "5 seconds",
+      "correctAnswer": "C",
+      "explanation": "Check for breathing for no more than 10 seconds. Spending longer delays CPR."
+    },
+    {
+      "id": "m1_q8", "moduleId": "module_1", "orderIndex": 8,
+      "question": "Occasional gasping after collapse indicates:",
+      "optionA": "Normal breathing — monitor only",
+      "optionB": "The person is recovering",
+      "optionC": "Not normal breathing — begin CPR",
+      "optionD": "A sign of a seizure",
+      "correctAnswer": "C",
+      "explanation": "Agonal gasping is not normal breathing. If someone is gasping, treat as if not breathing and begin CPR."
+    },
+    {
+      "id": "m1_q9", "moduleId": "module_1", "orderIndex": 9,
+      "question": "When directing a bystander to call emergency services, you should:",
+      "optionA": "Shout 'someone call 911'",
+      "optionB": "Point to a specific person and say 'YOU — call 911 now'",
+      "optionC": "Wait until you have assessed the casualty fully",
+      "optionD": "Call yourself even if others are present",
+      "correctAnswer": "B",
+      "explanation": "Directing a specific person overcomes bystander apathy. Vague calls often result in no one acting."
+    },
+    {
+      "id": "m1_q10", "moduleId": "module_1", "orderIndex": 10,
+      "question": "First aid is best described as:",
+      "optionA": "A replacement for professional medical care",
+      "optionB": "Only for trained medical professionals",
+      "optionC": "Immediate assistance that bridges the gap until professional help arrives",
+      "optionD": "Only applicable in hospitals",
+      "correctAnswer": "C",
+      "explanation": "First aid bridges the critical gap between an emergency occurring and professional medical care arriving."
+    },
+    {
+      "id": "m2_q1", "moduleId": "module_2", "orderIndex": 1,
+      "question": "What is the correct compression to breath ratio for adult CPR?",
+      "optionA": "15:2",
+      "optionB": "30:2",
+      "optionC": "10:1",
+      "optionD": "20:2",
+      "correctAnswer": "B",
+      "explanation": "The correct ratio is 30 chest compressions followed by 2 rescue breaths for adult CPR."
+    },
+    {
+      "id": "m2_q2", "moduleId": "module_2", "orderIndex": 2,
+      "question": "How deep should chest compressions be for an adult?",
+      "optionA": "1–2 cm",
+      "optionB": "3–4 cm",
+      "optionC": "5–6 cm",
+      "optionD": "7–8 cm",
+      "correctAnswer": "C",
+      "explanation": "Adult chest compressions should be 5–6 cm deep (2–2.5 inches) to be effective."
+    },
+    {
+      "id": "m2_q3", "moduleId": "module_2", "orderIndex": 3,
+      "question": "What is the recommended compression rate for CPR?",
+      "optionA": "60–80 per minute",
+      "optionB": "80–100 per minute",
+      "optionC": "100–120 per minute",
+      "optionD": "120–140 per minute",
+      "correctAnswer": "C",
+      "explanation": "Compressions should be performed at 100–120 per minute — the tempo of 'Stayin' Alive' is often cited."
+    },
+    {
+      "id": "m2_q4", "moduleId": "module_2", "orderIndex": 4,
+      "question": "Where should AED pads be placed?",
+      "optionA": "Both pads on the left chest",
+      "optionB": "Right of breastbone below collarbone, and left side below armpit",
+      "optionC": "On the back only",
+      "optionD": "On the abdomen",
+      "correctAnswer": "B",
+      "explanation": "One pad goes to the right of the breastbone below the collarbone; the other to the left side below the armpit."
+    },
+    {
+      "id": "m2_q5", "moduleId": "module_2", "orderIndex": 5,
+      "question": "When is the recovery position used?",
+      "optionA": "For all unconscious patients",
+      "optionB": "When CPR has been completed",
+      "optionC": "For unconscious patients who are breathing normally",
+      "optionD": "For conscious patients with breathing difficulty",
+      "correctAnswer": "C",
+      "explanation": "The recovery position is for unconscious patients who are breathing normally — to keep the airway clear."
+    },
+    {
+      "id": "m2_q6", "moduleId": "module_2", "orderIndex": 6,
+      "question": "What is the key difference between a heart attack and cardiac arrest?",
+      "optionA": "They are the same condition",
+      "optionB": "Heart attack — blockage, person conscious; Cardiac arrest — heart stops, person unconscious",
+      "optionC": "Cardiac arrest is less serious",
+      "optionD": "Heart attack requires CPR",
+      "correctAnswer": "B",
+      "explanation": "Heart attack is a circulatory problem — the person is usually conscious. Cardiac arrest is electrical — the heart stops."
+    },
+    {
+      "id": "m2_q7", "moduleId": "module_2", "orderIndex": 7,
+      "question": "What should you do immediately after an AED delivers a shock?",
+      "optionA": "Wait and observe for 1 minute",
+      "optionB": "Check for pulse",
+      "optionC": "Resume CPR immediately",
+      "optionD": "Remove the pads",
+      "correctAnswer": "C",
+      "explanation": "Resume CPR immediately after the shock — do not wait. Continue for 2 minutes before the AED re-analyzes."
+    },
+    {
+      "id": "m2_q8", "moduleId": "module_2", "orderIndex": 8,
+      "question": "Is hands-only CPR (no rescue breaths) acceptable?",
+      "optionA": "No — rescue breaths are always essential",
+      "optionB": "Yes — continuous compressions alone are still highly effective",
+      "optionC": "Only for children",
+      "optionD": "Only if trained",
+      "correctAnswer": "B",
+      "explanation": "Hands-only CPR is highly effective and is recommended for untrained bystanders or those unwilling to give breaths."
+    },
+    {
+      "id": "m2_q9", "moduleId": "module_2", "orderIndex": 9,
+      "question": "Can an AED accidentally shock a healthy heart?",
+      "optionA": "Yes — always",
+      "optionB": "Yes — if pads are misplaced",
+      "optionC": "No — AEDs only shock if a shockable rhythm is detected",
+      "optionD": "Yes — if used incorrectly",
+      "correctAnswer": "C",
+      "explanation": "AEDs analyze the heart rhythm and will only advise a shock if a shockable rhythm (VF or pulseless VT) is detected."
+    },
+    {
+      "id": "m2_q10", "moduleId": "module_2", "orderIndex": 10,
+      "question": "Where is chest compressions placed on the body?",
+      "optionA": "Upper chest near collarbone",
+      "optionB": "Centre of the chest on the lower half of the breastbone",
+      "optionC": "Left side of the chest over the heart",
+      "optionD": "Abdomen below the ribs",
+      "correctAnswer": "B",
+      "explanation": "Place the heel of your hand on the centre of the chest on the lower half of the breastbone (sternum)."
+    },
+    {
+      "id": "m3_q1", "moduleId": "module_3", "orderIndex": 1,
+      "question": "Which type of bleeding is most immediately life-threatening?",
+      "optionA": "Capillary",
+      "optionB": "Venous",
+      "optionC": "Arterial",
+      "optionD": "Internal",
+      "correctAnswer": "C",
+      "explanation": "Arterial bleeding is bright red and spurts with each heartbeat — it can be fatal within minutes."
+    },
+    {
+      "id": "m3_q2", "moduleId": "module_3", "orderIndex": 2,
+      "question": "How long should you apply direct pressure to a bleeding wound?",
+      "optionA": "2 minutes",
+      "optionB": "5 minutes",
+      "optionC": "At least 10 minutes without lifting",
+      "optionD": "Until the ambulance arrives",
+      "correctAnswer": "C",
+      "explanation": "Apply firm, continuous direct pressure for at least 10 minutes without lifting to allow clotting."
+    },
+    {
+      "id": "m3_q3", "moduleId": "module_3", "orderIndex": 3,
+      "question": "If blood soaks through a bandage, you should:",
+      "optionA": "Remove the bandage and apply a new one",
+      "optionB": "Add more layers on top without removing the original",
+      "optionC": "Apply more pressure and check the wound",
+      "optionD": "Stop applying pressure",
+      "correctAnswer": "B",
+      "explanation": "Add more layers on top — removing the original dressing disturbs clotting and worsens bleeding."
+    },
+    {
+      "id": "m3_q4", "moduleId": "module_3", "orderIndex": 4,
+      "question": "What should you do if an object is embedded in a wound?",
+      "optionA": "Remove it quickly to clean the wound",
+      "optionB": "Leave it in place, build padding around it, and seek emergency care",
+      "optionC": "Push it further in to reduce bleeding",
+      "optionD": "Cover the wound and ignore the object",
+      "correctAnswer": "B",
+      "explanation": "Never remove an embedded object — it may be preventing catastrophic bleeding. Pad around it and get emergency help."
+    },
+    {
+      "id": "m3_q5", "moduleId": "module_3", "orderIndex": 5,
+      "question": "Where should you apply a tourniquet for severe limb bleeding?",
+      "optionA": "Over the wound",
+      "optionB": "Below the wound",
+      "optionC": "5–7 cm above the wound",
+      "optionD": "As far from the wound as possible",
+      "correctAnswer": "C",
+      "explanation": "Apply the tourniquet 5–7 cm above the wound to occlude blood flow to the injury site."
+    },
+    {
+      "id": "m3_q6", "moduleId": "module_3", "orderIndex": 6,
+      "question": "For a nosebleed, the correct position is:",
+      "optionA": "Tilt head back",
+      "optionB": "Lie flat",
+      "optionC": "Sit upright, lean slightly forward",
+      "optionD": "Head between knees",
+      "correctAnswer": "C",
+      "explanation": "Sit upright and lean slightly forward. Tilting back causes blood to flow into the throat."
+    },
+    {
+      "id": "m3_q7", "moduleId": "module_3", "orderIndex": 7,
+      "question": "Which of the following should NOT be applied directly to a wound?",
+      "optionA": "Sterile gauze",
+      "optionB": "Clean cloth",
+      "optionC": "Fluffy cotton wool",
+      "optionD": "Bandage",
+      "correctAnswer": "C",
+      "explanation": "Fluffy cotton wool sticks to wounds and can introduce fibres. Use non-fluffy materials only."
+    },
+    {
+      "id": "m3_q8", "moduleId": "module_3", "orderIndex": 8,
+      "question": "What is the primary method of cleaning a wound?",
+      "optionA": "Hydrogen peroxide",
+      "optionB": "Iodine solution",
+      "optionC": "Clean running water for 5–10 minutes",
+      "optionD": "Alcohol wipes",
+      "correctAnswer": "C",
+      "explanation": "Clean running water for 5–10 minutes is the most effective method. Hydrogen peroxide and iodine damage tissue."
+    },
+    {
+      "id": "m3_q9", "moduleId": "module_3", "orderIndex": 9,
+      "question": "Signs of internal bleeding include:",
+      "optionA": "Visible wound with bright red blood",
+      "optionB": "Pale, cold, clammy skin with rapid weak pulse",
+      "optionC": "Redness and warmth at the injury site",
+      "optionD": "Slow heart rate and warm skin",
+      "correctAnswer": "B",
+      "explanation": "Internal bleeding causes shock symptoms: pale, cold, clammy skin, rapid weak pulse, confusion, and swelling."
+    },
+    {
+      "id": "m3_q10", "moduleId": "module_3", "orderIndex": 10,
+      "question": "Once a tourniquet is applied, you should:",
+      "optionA": "Remove it after 30 minutes",
+      "optionB": "Loosen it periodically to restore circulation",
+      "optionC": "Record the time and not remove it — leave for medical professionals",
+      "optionD": "Replace it with a bandage when bleeding slows",
+      "correctAnswer": "C",
+      "explanation": "Never remove a tourniquet once applied. Record the time and leave removal to medical professionals."
+    },
+    {
+      "id": "m4_q1", "moduleId": "module_4", "orderIndex": 1,
+      "question": "How long should a burn be cooled under running water?",
+      "optionA": "5 minutes",
+      "optionB": "10 minutes",
+      "optionC": "20 minutes",
+      "optionD": "Until the pain stops",
+      "correctAnswer": "C",
+      "explanation": "Cool under cool (not cold) running water for a minimum of 20 minutes to limit tissue damage."
+    },
+    {
+      "id": "m4_q2", "moduleId": "module_4", "orderIndex": 2,
+      "question": "Which of these should NEVER be applied to a burn?",
+      "optionA": "Cling film",
+      "optionB": "Cool running water",
+      "optionC": "Butter or toothpaste",
+      "optionD": "A clean plastic bag",
+      "correctAnswer": "C",
+      "explanation": "Butter, toothpaste, and creams trap heat, increase infection risk, and worsen burn damage."
+    },
+    {
+      "id": "m4_q3", "moduleId": "module_4", "orderIndex": 3,
+      "question": "Third degree burns are often painless because:",
+      "optionA": "They are not serious",
+      "optionB": "The nerve endings have been destroyed",
+      "optionC": "The burn is too shallow",
+      "optionD": "Cold reduces the pain",
+      "correctAnswer": "B",
+      "explanation": "Third degree burns destroy all layers of skin including nerve endings, which is why they are paradoxically painless."
+    },
+    {
+      "id": "m4_q4", "moduleId": "module_4", "orderIndex": 4,
+      "question": "For an electrical burn, your first action should be:",
+      "optionA": "Apply water immediately",
+      "optionB": "Pull the person away from the source",
+      "optionC": "Switch off the electrical source",
+      "optionD": "Begin CPR",
+      "correctAnswer": "C",
+      "explanation": "Never touch a person in contact with an electrical source. Switch off the power at the source or fuse box first."
+    },
+    {
+      "id": "m4_q5", "moduleId": "module_4", "orderIndex": 5,
+      "question": "A sign that heat exhaustion has progressed to heat stroke is:",
+      "optionA": "Heavy sweating",
+      "optionB": "Pale, cool skin",
+      "optionC": "Hot, red skin with confusion or unconsciousness",
+      "optionD": "Mild headache",
+      "correctAnswer": "C",
+      "explanation": "Heat stroke presents with hot red skin, high body temperature, confusion, and possible unconsciousness — a medical emergency."
+    },
+    {
+      "id": "m4_q6", "moduleId": "module_4", "orderIndex": 6,
+      "question": "What does the Rule of Nines estimate?",
+      "optionA": "Burn depth",
+      "optionB": "Percentage of body surface area burned",
+      "optionC": "Time to cool a burn",
+      "optionD": "Age of the patient",
+      "correctAnswer": "B",
+      "explanation": "The Rule of Nines divides the body into areas of 9% each to estimate total body surface area burned."
+    },
+    {
+      "id": "m4_q7", "moduleId": "module_4", "orderIndex": 7,
+      "question": "In hypothermia, when shivering suddenly stops, this indicates:",
+      "optionA": "Recovery",
+      "optionB": "A dangerous sign — the body can no longer generate heat",
+      "optionC": "Mild hypothermia",
+      "optionD": "The person is warming up",
+      "correctAnswer": "B",
+      "explanation": "Shivering stopping in hypothermia is a dangerous sign — it means the body has lost its ability to generate heat."
+    },
+    {
+      "id": "m4_q8", "moduleId": "module_4", "orderIndex": 8,
+      "question": "For a chemical burn, you should:",
+      "optionA": "Try to neutralize the chemical with another substance",
+      "optionB": "Apply a dry bandage immediately",
+      "optionC": "Flush with large amounts of water for 20+ minutes",
+      "optionD": "Cover and seek help without washing",
+      "correctAnswer": "C",
+      "explanation": "Flush chemical burns with large amounts of water for at least 20 minutes. Never try to neutralize the chemical."
+    },
+    {
+      "id": "m4_q9", "moduleId": "module_4", "orderIndex": 9,
+      "question": "How should frostbitten tissue be treated?",
+      "optionA": "Rub vigorously to restore circulation",
+      "optionB": "Apply direct heat from a fire or heater",
+      "optionC": "Rewarm in warm (37-40°C) water only if refreezing is not possible",
+      "optionD": "Leave exposed to air",
+      "correctAnswer": "C",
+      "explanation": "Never rub frostbitten tissue. Rewarm in warm (not hot) water only if there is no risk of refreezing."
+    },
+    {
+      "id": "m4_q10", "moduleId": "module_4", "orderIndex": 10,
+      "question": "A second degree burn is characterized by:",
+      "optionA": "Only redness without blisters",
+      "optionB": "Red, blistered, wet-looking skin that is very painful",
+      "optionC": "White or black leathery skin",
+      "optionD": "Painless, charred skin",
+      "correctAnswer": "B",
+      "explanation": "Second degree (partial thickness) burns present with redness, blistering, wet appearance, and significant pain."
+    },
+    {
+      "id": "m5_q1", "moduleId": "module_5", "orderIndex": 1,
+      "question": "What does the RICE method stand for?",
+      "optionA": "Rest, Immobilize, Cool, Elevate",
+      "optionB": "Rest, Ice, Compression, Elevation",
+      "optionC": "Reduce, Ice, Compress, Evaluate",
+      "optionD": "Rest, Ice, Cover, Examine",
+      "correctAnswer": "B",
+      "explanation": "RICE: Rest, Ice, Compression, Elevation — the standard treatment for sprains and strains."
+    },
+    {
+      "id": "m5_q2", "moduleId": "module_5", "orderIndex": 2,
+      "question": "What should you NOT do when managing a fracture?",
+      "optionA": "Support it in the position found",
+      "optionB": "Apply ice wrapped in cloth",
+      "optionC": "Try to straighten or realign the bone",
+      "optionD": "Immobilize above and below",
+      "correctAnswer": "C",
+      "explanation": "Never attempt to straighten a fracture — this can cause further injury to blood vessels, nerves, and tissue."
+    },
+    {
+      "id": "m5_q3", "moduleId": "module_5", "orderIndex": 3,
+      "question": "In suspected spinal injury, the preferred airway maneuver is:",
+      "optionA": "Head-tilt chin-lift",
+      "optionB": "Jaw-thrust maneuver",
+      "optionC": "Neck extension",
+      "optionD": "Roll onto back",
+      "correctAnswer": "B",
+      "explanation": "The jaw-thrust maneuver opens the airway without moving the neck, making it safer in suspected spinal injuries."
+    },
+    {
+      "id": "m5_q4", "moduleId": "module_5", "orderIndex": 4,
+      "question": "How long should ice be applied when treating a sprain?",
+      "optionA": "5 minutes continuously",
+      "optionB": "30 minutes at a time",
+      "optionC": "20 minutes every 2 hours for 48 hours",
+      "optionD": "Until the swelling disappears",
+      "correctAnswer": "C",
+      "explanation": "Apply ice for 20 minutes every 2 hours for the first 48 hours. Never apply ice directly to skin."
+    },
+    {
+      "id": "m5_q5", "moduleId": "module_5", "orderIndex": 5,
+      "question": "An open (compound) fracture is most dangerous because:",
+      "optionA": "It is more painful",
+      "optionB": "High risk of infection and serious blood loss",
+      "optionC": "It takes longer to heal",
+      "optionD": "It always requires surgery",
+      "correctAnswer": "B",
+      "explanation": "Open fractures break through the skin, creating a high risk of infection and significant blood loss."
+    },
+    {
+      "id": "m5_q6", "moduleId": "module_6", "orderIndex": 6,
+      "question": "When should you attempt to relocate a dislocated joint?",
+      "optionA": "Immediately to reduce pain",
+      "optionB": "Only if you are trained",
+      "optionC": "Never — immobilize and seek medical care",
+      "optionD": "After 30 minutes of ice",
+      "correctAnswer": "C",
+      "explanation": "Never attempt to relocate a dislocation — it requires medical expertise and can cause serious damage."
+    },
+    {
+      "id": "m5_q7", "moduleId": "module_5", "orderIndex": 7,
+      "question": "Which situation should raise suspicion of a spinal injury?",
+      "optionA": "Sprained ankle from walking",
+      "optionB": "Cut hand",
+      "optionC": "Fall from height or high-speed collision",
+      "optionD": "Muscle cramp",
+      "correctAnswer": "C",
+      "explanation": "High-energy trauma such as falls from height, diving accidents, and high-speed collisions should raise spinal injury suspicion."
+    },
+    {
+      "id": "m5_q8", "moduleId": "module_5", "orderIndex": 8,
+      "question": "A splint must immobilize:",
+      "optionA": "Only the fracture site",
+      "optionB": "The joint above the fracture only",
+      "optionC": "The joint above and below the fracture",
+      "optionD": "The entire limb",
+      "correctAnswer": "C",
+      "explanation": "A splint must immobilize the joint above AND below the fracture to prevent movement at the injury site."
+    },
+    {
+      "id": "m5_q9", "moduleId": "module_5", "orderIndex": 9,
+      "question": "What is the difference between a sprain and a strain?",
+      "optionA": "There is no difference",
+      "optionB": "Sprain — ligament; Strain — muscle or tendon",
+      "optionC": "Sprain — muscle; Strain — ligament",
+      "optionD": "Sprain — bone; Strain — joint",
+      "correctAnswer": "B",
+      "explanation": "A sprain is a ligament injury (bone to bone). A strain is a muscle or tendon injury (muscle to bone)."
+    },
+    {
+      "id": "m5_q10", "moduleId": "module_5", "orderIndex": 10,
+      "question": "After applying a compression bandage for a sprain, you notice the toes are numb. You should:",
+      "optionA": "Keep it tight — this is normal",
+      "optionB": "Remove the bandage completely",
+      "optionC": "Loosen the bandage",
+      "optionD": "Apply more ice",
+      "correctAnswer": "C",
+      "explanation": "Numbness or tingling after bandaging means it is too tight and is cutting off circulation. Loosen it immediately."
+    },
+    {
+      "id": "m6_q1", "moduleId": "module_6", "orderIndex": 1,
+      "question": "What does FAST stand for in stroke assessment?",
+      "optionA": "Feel, Assess, Stabilize, Transport",
+      "optionB": "Face, Arms, Speech, Time",
+      "optionC": "Fall, Airway, Shock, Treatment",
+      "optionD": "Fever, Ache, Spasm, Tiredness",
+      "correctAnswer": "B",
+      "explanation": "FAST: Face drooping, Arm weakness, Speech difficulty, Time to call 911."
+    },
+    {
+      "id": "m6_q2", "moduleId": "module_6", "orderIndex": 2,
+      "question": "During a seizure, you should:",
+      "optionA": "Restrain the person to prevent injury",
+      "optionB": "Put something in their mouth",
+      "optionC": "Clear the area and protect the head",
+      "optionD": "Give water",
+      "correctAnswer": "C",
+      "explanation": "Clear hazards, cushion the head, and do not restrain. Never put anything in the mouth."
+    },
+    {
+      "id": "m6_q3", "moduleId": "module_6", "orderIndex": 3,
+      "question": "For severe choking in an adult, the correct sequence is:",
+      "optionA": "Abdominal thrusts only",
+      "optionB": "Back blows only",
+      "optionC": "5 back blows alternating with 5 abdominal thrusts",
+      "optionD": "Finger sweeps in the mouth",
+      "correctAnswer": "C",
+      "explanation": "Alternate 5 back blows with 5 abdominal thrusts until the obstruction is cleared or the person becomes unconscious."
+    },
+    {
+      "id": "m6_q4", "moduleId": "module_6", "orderIndex": 4,
+      "question": "Where is an EpiPen injected?",
+      "optionA": "Upper arm",
+      "optionB": "Abdomen",
+      "optionC": "Outer mid-thigh",
+      "optionD": "Neck",
+      "correctAnswer": "C",
+      "explanation": "An EpiPen is injected into the outer mid-thigh. It can be given through clothing in an emergency."
+    },
+    {
+      "id": "m6_q5", "moduleId": "module_6", "orderIndex": 5,
+      "question": "A person with hypoglycemia who is conscious should be given:",
+      "optionA": "Water only",
+      "optionB": "Fast-acting sugar such as glucose tablets or fruit juice",
+      "optionC": "Insulin",
+      "optionD": "Salt tablets",
+      "correctAnswer": "B",
+      "explanation": "Give fast-acting sugar — glucose tablets, fruit juice, regular soda, or sugar. This raises blood glucose quickly."
+    },
+    {
+      "id": "m6_q6", "moduleId": "module_6", "orderIndex": 6,
+      "question": "After a person receives an EpiPen for anaphylaxis and improves, they should:",
+      "optionA": "Go home and rest",
+      "optionB": "Take antihistamines and monitor at home",
+      "optionC": "Go to hospital — symptoms can return",
+      "optionD": "Take a second EpiPen immediately",
+      "correctAnswer": "C",
+      "explanation": "Even if symptoms improve, the person MUST go to hospital — anaphylaxis can have a biphasic response and return."
+    },
+    {
+      "id": "m6_q7", "moduleId": "module_6", "orderIndex": 7,
+      "question": "When should you call 911 for a seizure?",
+      "optionA": "For any seizure",
+      "optionB": "Only if the person is unknown to you",
+      "optionC": "If it lasts more than 5 minutes or another seizure follows",
+      "optionD": "Only if they are injured",
+      "correctAnswer": "C",
+      "explanation": "Call 911 if: seizure lasts 5+ minutes, another follows, first known seizure, injured, pregnant, or in water."
+    },
+    {
+      "id": "m6_q8", "moduleId": "module_6", "orderIndex": 8,
+      "question": "For choking in an infant under 1 year, abdominal thrusts are replaced with:",
+      "optionA": "Harder back blows",
+      "optionB": "Chest thrusts",
+      "optionC": "Finger sweeps",
+      "optionD": "Abdominal thrusts are the same for infants",
+      "correctAnswer": "B",
+      "explanation": "For infants under 1 year, use chest thrusts instead of abdominal thrusts — abdominal thrusts can damage infant organs."
+    },
+    {
+      "id": "m6_q9", "moduleId": "module_6", "orderIndex": 9,
+      "question": "For poisoning, when should you induce vomiting?",
+      "optionA": "Always — to remove the poison",
+      "optionB": "Never",
+      "optionC": "Only when specifically instructed by Poison Control",
+      "optionD": "Only for ingested poisons",
+      "correctAnswer": "C",
+      "explanation": "Never induce vomiting unless specifically instructed by Poison Control — some substances cause more damage coming back up."
+    },
+    {
+      "id": "m6_q10", "moduleId": "module_6", "orderIndex": 10,
+      "question": "The most important piece of information to note during a stroke is:",
+      "optionA": "The person's blood type",
+      "optionB": "The exact time symptoms started",
+      "optionC": "Their medication list",
+      "optionD": "Their age",
+      "correctAnswer": "B",
+      "explanation": "The exact time symptoms started is critical — it determines eligibility for clot-busting treatment which has a narrow time window."
+    }
+  ],
+  "badges": [
+    {
+      "id": "badge_1", "moduleId": "module_1",
+      "name": "First Responder",
+      "description": "Mastered emergency fundamentals and DRSABCD",
+      "icon": "emergency"
+    },
+    {
+      "id": "badge_2", "moduleId": "module_2",
+      "name": "Heart Saver",
+      "description": "Certified in CPR, AED use, and cardiac emergencies",
+      "icon": "favorite"
+    },
+    {
+      "id": "badge_3", "moduleId": "module_3",
+      "name": "Wound Care Pro",
+      "description": "Expert in bleeding control and wound management",
+      "icon": "healing"
+    },
+    {
+      "id": "badge_4", "moduleId": "module_4",
+      "name": "Burns Specialist",
+      "description": "Proficient in burns and environmental emergency treatment",
+      "icon": "local_fire_department"
+    },
+    {
+      "id": "badge_5", "moduleId": "module_5",
+      "name": "Bone & Joint Expert",
+      "description": "Skilled in fracture, spinal, and musculoskeletal care",
+      "icon": "medical_services"
+    },
+    {
+      "id": "badge_6", "moduleId": "module_6",
+      "name": "Medical Emergency Pro",
+      "description": "Trained in stroke, seizures, choking, and anaphylaxis",
+      "icon": "local_hospital"
+    }
+  ]
+}

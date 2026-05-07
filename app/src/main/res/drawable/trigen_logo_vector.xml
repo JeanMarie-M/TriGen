@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- The Cross Symbol -->
+    <!-- Top arm: Red / coral -->
+    <path
+        android:fillColor="#F07167"
+        android:pathData="M46,20c0,-2.2 1.8,-4 4,-4h8c2.2,0 4,1.8 4,4v30h-16v-30z" />
+
+    <!-- Bottom arm: Teal / cyan -->
+    <path
+        android:fillColor="#00CED1"
+        android:pathData="M46,58v30c0,2.2 1.8,4 4,4h8c2.2,0 4,-1.8 4,-4v-30h-16z" />
+
+    <!-- Left arm: Muted purple / mauve -->
+    <path
+        android:fillColor="#A78BFA"
+        android:pathData="M20,46h30v16h-30c-2.2,0 -4,-1.8 -4,-4v-8c0,-2.2 1.8,-4 4,-4z" />
+
+    <!-- Right arm: Light blue -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M58,46h30c2.2,0 4,1.8 4,4v8c0,2.2 -1.8,4 -4,4h-30v-16z" />
+
+    <!-- Center highlight / merging area -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.2"
+        android:pathData="M46,46h16v16h-16z" />
+
+    <!-- Particle effects (white specks) -->
+    <path android:fillColor="#FFFFFF" android:pathData="M30,30h1.5v1.5h-1.5z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M78,25h2v2h-2z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M85,80h1.5v1.5h-1.5z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M25,85h2v2h-2z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M15,54h1.2v1.2h-1.2z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M92,54h1.2v1.2h-1.2z" />
+
+</vector>

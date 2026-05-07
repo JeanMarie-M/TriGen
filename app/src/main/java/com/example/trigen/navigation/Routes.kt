@@ -1,0 +1,39 @@
+package com.example.trigen.navigation
+
+object Routes {
+    const val HOME = "home"
+    const val SCAN = "scan"
+    const val PROTOCOL = "protocol/{injuryType}"
+    const val CPR = "cpr"
+    const val ACADEMY = "academy"
+    const val MODULE_DETAIL = "module_detail/{moduleId}"
+    const val LESSON = "lesson/{lessonId}"
+    const val QUIZ = "quiz/{moduleId}"
+    const val BADGE = "badge/{moduleId}"
+    const val INCIDENTS = "incidents"
+
+    fun protocol(injuryType: String) = "protocol/$injuryType"
+    fun moduleDetail(moduleId: String) = "module_detail/$moduleId"
+    fun lesson(lessonId: String) = "lesson/$lessonId"
+    fun quiz(moduleId: String) = "quiz/$moduleId"
+    fun badge(moduleId: String) = "badge/$moduleId"
+
+    const val DRSABCD = "drsabcd"
+    const val SECONDARY_SURVEY = "secondary_survey"
+    const val AFTERMATH = "aftermath/{sessionId}"
+    const val VIEW_INCIDENT = "view_incident/{incidentId}"
+
+    fun aftermath(sessionId: String) = "aftermath/$sessionId"
+    fun viewIncident(incidentId: String) = "view_incident/$incidentId"
+    const val SPLASH = "splash"
+    const val LOGIN = "login"
+    const val SIGN_UP = "sign_up"
+    const val SEND_HELP = "send_help"
+    const val UNSAFE_SCENE = "unsafe_scene"
+    const val AED_UNAVAILABLE = "aed_unavailable"
+    const val CPR_ALTERNATIVE = "cpr_alternative"
+    const val PROFILE = "profile"
+    const val ABOUT = "about"
+    const val SUPPORT = "support"
+    const val PRIVACY = "privacy"
+}

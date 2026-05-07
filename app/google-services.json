@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "916992767079",
+    "project_id": "trigendb",
+    "storage_bucket": "trigendb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916992767079:android:56aa70b0d73db7469910c2",
+        "android_client_info": {
+          "package_name": "com.example.trigen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIYYZkJBySyjuEDfh_u_SBWsEZDonvDV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

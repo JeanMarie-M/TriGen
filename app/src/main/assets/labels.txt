@@ -1,0 +1,4 @@
+0 Burns
+1 Lacerations
+2 Bites & Stings
+3 Fractures
