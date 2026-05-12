@@ -18,9 +18,14 @@ private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(na
 class UserPreferences @Inject constructor(@ApplicationContext private val context: Context) {
 
     private val DARK_MODE_KEY = booleanPreferencesKey("dark_mode")
+    private val VOICE_KEY = androidx.datastore.preferences.core.stringPreferencesKey("voice_type")
 
     val darkModeFlow: Flow<Boolean?> = context.dataStore.data.map { preferences ->
         preferences[DARK_MODE_KEY]
+    }
+
+    val voiceFlow: Flow<String> = context.dataStore.data.map { preferences ->
+        preferences[VOICE_KEY] ?: "Default"
     }
 
     suspend fun setDarkMode(isDark: Boolean?) {
@@ -30,6 +35,12 @@ class UserPreferences @Inject constructor(@ApplicationContext private val contex
             } else {
                 preferences[DARK_MODE_KEY] = isDark
             }
+        }
+    }
+
+    suspend fun setVoice(voice: String) {
+        context.dataStore.edit { preferences ->
+            preferences[VOICE_KEY] = voice
         }
     }
 }

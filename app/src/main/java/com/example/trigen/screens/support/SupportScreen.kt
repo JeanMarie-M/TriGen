@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun SupportScreen(
     onBack: () -> Unit,
-    onNavigateToHome: () -> Unit
+    onNavigateToProfile: () -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -96,7 +96,7 @@ fun SupportScreen(
             )
 
             Button(
-                onClick = {onNavigateToHome()},
+                onClick = {onNavigateToProfile()},
                 modifier = Modifier.fillMaxWidth(),
                 enabled = message.isNotBlank()
             ) {

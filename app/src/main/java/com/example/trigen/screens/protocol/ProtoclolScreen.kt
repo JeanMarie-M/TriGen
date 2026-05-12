@@ -89,8 +89,16 @@ fun ProtocolScreen(
         }
 
         is ProtocolUiState.Success -> {
+            val successState = uiState as ProtocolUiState.Success
             ProtocolContent(
-                protocol = (uiState as ProtocolUiState.Success).protocol,
+                protocol = successState.protocol,
+                currentStepIndex = successState.currentStepIndex,
+                isTtsActive = successState.isTtsActive,
+                isVoiceCommandActive = successState.isVoiceCommandActive,
+                onToggleTts = { viewModel.toggleTts(it) },
+                onToggleVoice = { viewModel.toggleVoiceCommands(it) },
+                onNext = { viewModel.nextStep() },
+                onPrev = { viewModel.prevStep() },
                 onBack = onBack,
                 onNavigateToHome = onNavigateToHome
             )
@@ -101,10 +109,16 @@ fun ProtocolScreen(
 @Composable
 private fun ProtocolContent(
     protocol: InjuryProtocol,
+    currentStepIndex: Int,
+    isTtsActive: Boolean,
+    isVoiceCommandActive: Boolean,
+    onToggleTts: (Boolean) -> Unit,
+    onToggleVoice: (Boolean) -> Unit,
+    onNext: () -> Unit,
+    onPrev: () -> Unit,
     onBack: () -> Unit,
     onNavigateToHome: () -> Unit
 ) {
-    var currentStep by remember { mutableIntStateOf(0) }
     var showAllSteps by remember { mutableStateOf(false) }
     val colorScheme = MaterialTheme.colorScheme
 
@@ -149,6 +163,21 @@ private fun ProtocolContent(
                         color = colorScheme.primary
                     )
                 }
+            }
+            Spacer(modifier = Modifier.width(8.dp))
+            IconButton(onClick = { onToggleTts(!isTtsActive) }) {
+                Icon(
+                    imageVector = if (isTtsActive) Icons.Default.VolumeUp else Icons.Default.VolumeOff,
+                    contentDescription = "Toggle TTS",
+                    tint = if (isTtsActive) colorScheme.primary else colorScheme.onBackground
+                )
+            }
+            IconButton(onClick = { onToggleVoice(!isVoiceCommandActive) }) {
+                Icon(
+                    imageVector = if (isVoiceCommandActive) Icons.Default.Mic else Icons.Default.MicOff,
+                    contentDescription = "Toggle Voice Commands",
+                    tint = if (isVoiceCommandActive) colorScheme.secondary else colorScheme.onBackground
+                )
             }
         }
 
@@ -227,7 +256,7 @@ private fun ProtocolContent(
                                 .height(4.dp)
                                 .clip(RoundedCornerShape(2.dp))
                                 .background(
-                                    if (index <= currentStep) colorScheme.primary
+                                    if (index <= currentStepIndex) colorScheme.primary
                                     else colorScheme.onSurface.copy(alpha = 0.1f)
                                 )
                         )
@@ -238,7 +267,7 @@ private fun ProtocolContent(
             // Guided mode — current step
             if (!showAllSteps) {
                 item {
-                    val step = protocol.steps[currentStep]
+                    val step = protocol.steps[currentStepIndex]
                     Column(
                         modifier = Modifier
                             .fillMaxWidth()
@@ -300,14 +329,25 @@ private fun ProtocolContent(
                             }
                         }
 
+                        // Voice/TTS Hint
+                        if (isVoiceCommandActive) {
+                            Text(
+                                text = "Say 'Next', 'Back' or 'Repeat'",
+                                fontSize = 12.sp,
+                                color = colorScheme.secondary,
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier.padding(top = 8.dp).align(Alignment.CenterHorizontally)
+                            )
+                        }
+
                         Spacer(modifier = Modifier.height(12.dp))
                         Row(
                             modifier = Modifier.fillMaxWidth(),
                             horizontalArrangement = Arrangement.spacedBy(10.dp)
                         ) {
-                            if (currentStep > 0) {
+                            if (currentStepIndex > 0) {
                                 OutlinedButton(
-                                    onClick = { currentStep-- },
+                                    onClick = onPrev,
                                     modifier = Modifier.weight(1f),
                                     shape = RoundedCornerShape(12.dp)
                                 ) {
@@ -322,22 +362,22 @@ private fun ProtocolContent(
                             }
                             Button(
                                 onClick = {
-                                    if (currentStep < protocol.steps.size - 1) currentStep++
+                                    if (currentStepIndex < protocol.steps.size - 1) onNext()
                                     else onNavigateToHome()
                                 },
                                 modifier = Modifier.weight(1f),
                                 shape = RoundedCornerShape(12.dp),
 
-                                colors = if (currentStep < protocol.steps.size - 1) ButtonDefaults.buttonColors(containerColor = colorScheme.primary)
+                                colors = if (currentStepIndex < protocol.steps.size - 1) ButtonDefaults.buttonColors(containerColor = colorScheme.primary)
                                 else ButtonDefaults.buttonColors(containerColor = colorScheme.tertiary),
                                 enabled = true
 
                             ) {
                                 Text(
-                                    if (currentStep < protocol.steps.size - 1) "Next Step"
+                                    if (currentStepIndex < protocol.steps.size - 1) "Next Step"
                                     else "Complete"
                                 )
-                                if (currentStep < protocol.steps.size - 1) {
+                                if (currentStepIndex < protocol.steps.size - 1) {
                                     Spacer(modifier = Modifier.width(6.dp))
                                     Icon(
                                         Icons.Default.ArrowForward,
@@ -401,7 +441,7 @@ private fun ProtocolContent(
                                     .size(32.dp)
                                     .clip(CircleShape)
                                     .background(
-                                        if (index <= currentStep) colorScheme.primary
+                                        if (index <= currentStepIndex) colorScheme.primary
                                         else colorScheme.onSurface.copy(alpha = 0.1f)
                                     ),
                                 contentAlignment = Alignment.Center

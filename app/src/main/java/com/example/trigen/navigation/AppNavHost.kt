@@ -152,7 +152,7 @@ fun AppNavHost(
             composable(Routes.SUPPORT) {
                 SupportScreen(
                     onBack = { navController.popBackStack() },
-                    onNavigateToHome = { navController.navigate(Routes.HOME) }
+                    onNavigateToProfile = { navController.navigate(Routes.PROFILE) }
                     )
             }
 

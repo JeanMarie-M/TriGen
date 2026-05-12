@@ -15,6 +15,7 @@ data class ProfileUiState(
     val user: FirebaseUser? = null,
     val displayName: String? = null,
     val isDarkMode: Boolean? = null,
+    val voiceType: String = "Default",
     val earnedBadges: Int = 0
 )
 
@@ -33,12 +34,14 @@ class ProfileViewModel @Inject constructor(
             combine(
                 authRepository.authStateFlow(),
                 userPreferences.darkModeFlow,
+                userPreferences.voiceFlow,
                 academyRepository.getEarnedBadgeCountFlow()
-            ) { user, isDarkMode, badgeCount ->
+            ) { user, isDarkMode, voiceType, badgeCount ->
                 ProfileUiState(
                     user = user,
                     displayName = user?.displayName,
                     isDarkMode = isDarkMode,
+                    voiceType = voiceType,
                     earnedBadges = badgeCount
                 )
             }.collect {
@@ -50,6 +53,12 @@ class ProfileViewModel @Inject constructor(
     fun toggleDarkMode(isDark: Boolean?) {
         viewModelScope.launch {
             userPreferences.setDarkMode(isDark)
+        }
+    }
+
+    fun setVoiceType(voice: String) {
+        viewModelScope.launch {
+            userPreferences.setVoice(voice)
         }
     }
 

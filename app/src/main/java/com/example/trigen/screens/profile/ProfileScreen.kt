@@ -128,6 +128,11 @@ fun ProfileScreen(
                         currentMode = uiState.isDarkMode,
                         onModeChange = { viewModel.toggleDarkMode(it) }
                     )
+                    HorizontalDivider(modifier = Modifier.padding(horizontal = 16.dp))
+                    VoiceSettingItem(
+                        currentVoice = uiState.voiceType,
+                        onVoiceChange = { viewModel.setVoiceType(it) }
+                    )
                 }
             }
 
@@ -295,6 +300,44 @@ fun ThemeSettingItem(currentMode: Boolean?, onModeChange: (Boolean?) -> Unit) {
                     text = { Text("Dark Mode") },
                     onClick = { onModeChange(true); expanded = false }
                 )
+            }
+        }
+    }
+}
+
+@Composable
+fun VoiceSettingItem(currentVoice: String, onVoiceChange: (String) -> Unit) {
+    var expanded by remember { mutableStateOf(false) }
+    val voices = listOf("Default", "Male", "Female", "British", "Australian")
+
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(16.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Icon(Icons.Default.RecordVoiceOver, contentDescription = null)
+            Spacer(modifier = Modifier.width(16.dp))
+            Text("Voice Style")
+        }
+
+        Box {
+            TextButton(onClick = { expanded = true }) {
+                Text(currentVoice)
+                Icon(Icons.Default.ArrowDropDown, contentDescription = null)
+            }
+            DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
+                voices.forEach { voice ->
+                    DropdownMenuItem(
+                        text = { Text(voice) },
+                        onClick = {
+                            onVoiceChange(voice)
+                            expanded = false
+                        }
+                    )
+                }
             }
         }
     }
